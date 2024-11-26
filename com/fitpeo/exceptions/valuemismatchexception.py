@@ -1,0 +1,2 @@
+class ValueMismatchException(Exception):
+    pass
