@@ -69,4 +69,4 @@ class RevenueCalculatorPage:
             raise ValueMismatchException(
                 f'Total Recurring Reimbursement Per Month is incorrect. Actual = {actual}, Expected = {expected}'
             )
-        print('Total Revenue Gross Per Year is Success. Revenue = ' + actual)
+        print('Total Recurring Reimbursement Per Month is Success. Revenue = ' + actual)

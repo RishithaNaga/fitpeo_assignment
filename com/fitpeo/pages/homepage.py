@@ -4,6 +4,8 @@ from selenium.webdriver.common.by import By
 class HomePage:
     button_menu_xpath='//button[@aria-label="open drawer"]'
     button_revenuecalculator_xpath='//span[text()="Revenue Calculator"]'
+
+
     def __init__(self, driver):
         self.driver = driver
         self.url = "https://www.fitpeo.com/"
